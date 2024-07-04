@@ -3,5 +3,5 @@ inputs:
   
   # Model Settings
   numDeltaLelems: 5                # Number of stroke length elements [num]
-  FgToggle: 1                      # Gravity toggle: 0 = No, 1 = Yes
+  FgToggle: true                      # Gravity toggle: 0 = No, 1 = Yes
   vertWindProfile: 0               # Vertical wind profile: 0 = Modelled, 1 = From dataset

@@ -6,7 +6,7 @@ inputs.name = 'inputFile_example_awePower';
 
 % Model Settings
 inputs.numDeltaLelems     = 5;          % Number of stroke length elements [num]
-inputs.FgToggle           = true;          % Gravity toggle: 0 = No, 1 = Yes
+inputs.FgToggle           = true;       % Gravity toggle
 inputs.vertWindProfile    = 0;          % Vertical wind profile: 0 = Modelled, 1 = From dataset 
 
 % Wind Parameters

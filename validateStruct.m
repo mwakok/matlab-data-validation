@@ -21,7 +21,7 @@ for i = 1:numel(fields)
     if isfield(schema.(field), 'validation')
         validationFunc = schema.(field).validation;
         validationFunc(dataStruct.(field));
-    end
+    end    
 
 end
 
